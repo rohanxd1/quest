@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tesla Website</title>
     <style>
+          html, body {
+            margin: 0;
+            padding: 0;
+        }
         body{
             background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png');
             background-size: cover;
@@ -13,9 +17,9 @@
             text-align: center;
             font-family: sans-serif;
             font-weight: bold;
-            padding: 10px;
             font-size: 14px;
-            
+            padding: 0; 
+            margin: 0; 
         }
         .navdiv a {
             color: white; 
@@ -24,8 +28,52 @@
         }
         .tlogo{
             text-align: left;
+            margin: 0; 
         }
-        
+        .tlogo img{
+           height: 20px;
+           padding-top: 10px;
+           padding-left: 50px;
+        }
+        .model3{
+            text-align: center;
+            font-family: sans-serif;
+            padding-top: 40px;
+            font-weight: bold;
+            color: white;
+        }
+        .acash{
+            margin: 0;
+            padding-top: 10px;
+            font-weight: bold;
+            font-size:15px;
+            color: white;
+        }
+        button {
+            padding: 10px 100px;
+            font-size: 13px;
+            font-family: sans-serif;
+            font-weight: bold;
+            margin-top: 440px;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+        .blue{
+            background-color: #5272fd;
+            color: #fff;
+        }
+        .bluepad{
+            text-align: center ;
+        }
+        .white{
+            background-color: white;
+            color: black;
+        }
+        button:hover {
+            background-color: #616161;
+        }
     </style>
 </head>
 <body>
@@ -36,7 +84,7 @@
         </a>
     </div>
     <div class="navdiv">
-        <nav style="">
+        <nav>
             <a href="#">Vehicles</a>
             <a href="#">Energy</a>
             <a href="#">Charging</a>
@@ -44,6 +92,16 @@
             <a href="#">Shop</a>
         </nav>
     </div>
-    
+    <div class="model3" >
+        
+        <a style="font-size:52px";>Model 3</a> <br>
+        <a style="font-size:25px";>From $34,990<sup style="font-size: 10px;">1</sup></a><br>
+        <a href="#" class="acash">After Federal Tax Credit $7,500</a><br>
+        <a href="#" class="acash">and Est. Gas Savings $5,000</a><br>
+    </div>
+    <div class="bluepad">
+        <button class="blue">Order Now</button>
+        <button>Demo Drive</button>
+    </div>
 </body>
 </html>
