@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navtab a{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight: bold;
+}
+body{
+    margin: 0;
+}
+hr{
+    border: none; /* Remove the default border */
+    height: 2px; /* Set the height of the hr element */
+    background-color: #000; /* Set the color of the hr element */
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3); /* Apply shadow */
+    margin: 30px ; /* Add vertical space around the hr */
+}
+p,ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.boxsec{
+    border: 10px solid rgb(255, 255, 255); 
+    padding: 20px;         
+    margin: 20px;            
+    background-color: #fdfdfd; 
+    border-radius: 10px;     
+    box-shadow: 5px 5px 15px rgba(3, 74, 255, 0.603);
+}
+.headerbox{
+    border: 2pxpx solid #05fdfd7d; 
+    padding: 20px;         
+    margin: 20px;            
+    background-color: #05fdfd2e; 
+    border-radius: 10px;     
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.603);
+}
+.contactme a{
+    margin-bottom: 15px;
+}
+.img-align img{
+    float: right;
+    margin: 0 30px 10px 10px;
+    width: 160px; 
+    height: 190px; 
+    border-radius: 50%;
+}
+/* ---------------------------------------------- */
