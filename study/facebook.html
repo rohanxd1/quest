@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="fbstyle.css">
+</head>
+<body>
+    <div class="bluebox">
+        <h1>facebook</h1>
+        <form action="facebook.html" method="get">
+        <div class="boxin">
+            <div class="input-group">
+                <span>email</span>
+                <input type="email" id="mail" placeholder="enter e-mail">
+                <div class="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                    <input type="checkbox" id="remember-me">
+                </div>
+            </div>
+            <div class="input-group" style="padding-right: 10px;">
+                <span>password</span>
+                <input type="password" id="password" placeholder="enter password">
+                <a href="#" class="forgot-password" style="font-weight: bold;">Forgot your password?</a>
+            </div>
+            <div class="input-group" style="padding-right: 25px; padding-top: 19px;">
+                <button type="submit" onclick="alert('Create account first')"> sign-in</button>
+            </div>
+        </div>
+    </form>
+    </div>
+
+    <div class="parent-container">
+        <div class="fb-img">
+            <span>Facebook helps you connect and share with</span>
+            <span>the people in your life</span>
+            <img src="fb-trans.png" alt="fb image">
+        </div>
+        <div class="sign-up">
+         <form action="" method="get">
+            <span>Sign Up</span><br>
+            <span style="font-size: 25px;">It's free and always will be</span>
+
+            <div style="padding-bottom: 50px;"></div>
+
+            <div class="signup-inputs">
+
+                <div class="s-input-group">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" name="full-name" id="full-name" placeholder="Enter Full Name">
+                </div>
+                <div class="s-input-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter E-mail">
+                </div>
+                <div class="s-input-group">
+                    <label for="password">New Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password">
+                </div>
+                <div class="s-input-group">
+                    <label for="gender">I am:</label>
+                    <select id="gender" class="dropdown">
+                        <option value="" disabled selected style="text-align: center;">Select sex</option>
+                        <option value="m">Male</option>
+                        <option value="f">Female</option>
+                        <option value="o">Do not want to specify</option>
+                    </select>
+                </div>
+                <div class="s-input-group">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date">
+                </div>
+                <div class="s-input-group">
+                    <div class="s-buttonsec">
+                        <a href="#">Why do I need to provide this?</a>
+                        <button type="submit" onclick="alert('Successfully Registered')">sign-up</button>
+                        <div style="line-height:.5;"><br></div>
+                        <p style="text-align:left;">By clicking Sign Up, you are indicating that you have read and <br>
+                            agree to the <a href="#" style="color: blue; display:inline-block; padding:0;">Terms of Use</a> and <a href="#" style="color: blue; display:inline-block; padding:0;"> Privacy Policy.</a></p>
+
+                    </div>
+                    
+                </div> 
+            </div>
+         </form>
+        </div>
+    </div>
+<footer>  
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Developers</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Find Friends</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Help</a></li>
+    </ul>
+</footer>
+</body>
+</html>
